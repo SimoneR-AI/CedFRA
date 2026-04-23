@@ -43,3 +43,4 @@
 - I log si trovano in `app/logs/cedfra_YYYY-MM-DD.log`.
 - La directory `ui/` orfana in root è stata rimossa (2026-04-23).
 - Rotazione automatica backup già attiva (max 30) in `config_manager.py`.
+- Push automatico testato e funzionante (2026-04-23).
