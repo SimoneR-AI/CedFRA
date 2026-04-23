@@ -1,0 +1,52 @@
+{
+  "societa": "Marine Interiors",
+  "societa_completa": "Marine Interiors S.p.A.",
+  "firmatario": "Carlo Gainelli \u2013 Direttore Generale",
+  "mittente": "MI-PER",
+  "destinatari": "CO-GLE; CO-TCM",
+  "cc": "Giovanni Muia; Mauro Azzolin; Gennaro Farella; Martinelli Paola",
+  "causale_pagamento": "Pagamento previsto da contratto",
+  "oggetto_prefisso": "Versamento stipendio dipendente assunto in Francia",
+  "dipendenti": {
+    "MARCHETTO": {
+      "nome": "Redi",
+      "cognome": "MARCHETTO",
+      "nome_oggetto": "Redi Marchetto",
+      "beneficiario": "MARCHETTO REDI (conto cointestato: Marchetto Redi - Cattai Valeria)",
+      "indirizzo": "Via San Romano, n. 44 int. 4 Ponte di Piave (TV)",
+      "iban": "IT 94X0890461870015000001150",
+      "swift": "CCRTIT2TPRE",
+      "banca": "Credito Emiliano S.p.A. (Credem)"
+    },
+    "JOUNEAU": {
+      "nome": "Ludwig",
+      "cognome": "JOUNEAU",
+      "nome_oggetto": "Ludwig Jouneau",
+      "beneficiario": "JOUNEAU LUDWIG",
+      "indirizzo": "12 Chemin de le fuie, Hoscas, 44410 Herbignac",
+      "iban": "FR7640618803340004033496016",
+      "swift": "BOUS FRPP XXX",
+      "banca": "BoursoBank"
+    }
+  },
+  "mesi_italiano": [
+    "gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno",
+    "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre"
+  ],
+  "mesi_italiano_upper": [
+    "GENNAIO", "FEBBRAIO", "MARZO", "APRILE", "MAGGIO", "GIUGNO",
+    "LUGLIO", "AGOSTO", "SETTEMBRE", "OTTOBRE", "NOVEMBRE", "DICEMBRE"
+  ],
+  "mesi_francese": [
+    "janvier", "f\u00e9vrier", "mars", "avril", "mai", "juin",
+    "juillet", "ao\u00fbt", "septembre", "octobre", "novembre", "d\u00e9cembre"
+  ],
+  "mesi_abbreviati": [
+    "GEN", "FEB", "MAR", "APR", "MAG", "GIU",
+    "LUG", "AGO", "SET", "OTT", "NOV", "DIC"
+  ],
+  "giorni_settimana": [
+    "Luned\u00ec", "Marted\u00ec", "Mercoled\u00ec", "Gioved\u00ec",
+    "Venerd\u00ec", "Sabato", "Domenica"
+  ]
+}

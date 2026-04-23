@@ -1,0 +1,43 @@
+{
+  "societa": "Marine Interiors",
+  "societa_completa": "Marine Interiors S.p.A.",
+  "firmatario": "Carlo Gainelli – Direttore Generale",
+  "mittente": "MI-PER",
+  "destinatari": "CO-GLE; CO-TCM",
+  "cc": "Giovanni Muia; Mauro Azzolin; Gennaro Farella; Martinelli Paola",
+  "causale_pagamento": "Pagamento previsto da contratto",
+  "oggetto_prefisso": "Versamento stipendio dipendente assunto in Francia",
+  "dipendenti": {
+    "MARCHETTO": {
+      "nome": "Redi",
+      "cognome": "MARCHETTO",
+      "nome_oggetto": "Redi Marchetto",
+      "beneficiario": "MARCHETTO REDI (conto cointestato: Marchetto Redi - Cattai Valeria)",
+      "indirizzo": "Via San Romano, n. 44 int. 4 Ponte di Piave (TV)",
+      "iban": "IT 94X0890461870015000001150",
+      "swift": "CCRTIT2TPRE",
+      "banca": "BANCA PREALPI SANBIAGIO CREDITO COOPERATIVO"
+    },
+    "JOUNEAU": {
+      "nome": "Ludwig",
+      "cognome": "JOUNEAU",
+      "nome_oggetto": "Ludwig Jouneau",
+      "beneficiario": "JOUNEAU LUDWIG",
+      "indirizzo": "12 Chemin de le fuie, Hoscas, 44410 Herbignac",
+      "iban": "FR7640618803340004033496016",
+      "swift": "BOUS FRPP XXX",
+      "banca": "BoursoBank"
+    },
+    "TEST": {
+      "nome": "Test",
+      "cognome": "TEST",
+      "nome_oggetto": "Test TEST",
+      "beneficiario": "TEST",
+      "indirizzo": "",
+      "iban": "",
+      "swift": "",
+      "banca": "",
+      "attivo": false
+    }
+  }
+}

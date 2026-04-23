@@ -1,0 +1,14 @@
+{
+  "skills": {
+    "code-review": {
+      "enabled": true
+    },
+    "handoff": {
+      "enabled": true
+    }
+  },
+  "rules": {
+    "auto_lint": false,
+    "auto_test": false
+  }
+}

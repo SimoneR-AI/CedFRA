@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+
+# Virtualenv
+venv/
+.env
+.env.*
+
+# Output files (generated documents)
+app/output/*.docx
+
+# Logs (generated daily)
+app/logs/
+
+# Backups (can grow large)
+app/backups/*.json
+
+# History (append-only, grows over time)
+app/config_history.jsonl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

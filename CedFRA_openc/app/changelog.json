@@ -1,0 +1,55 @@
+[
+  {
+    "version": "1.2.3",
+    "date": "2026-04-23",
+    "changes": [
+      {"type": "feat", "desc": "Pulsante Ripristina per dipendenti inattivi in tab Dipendenti"},
+      {"type": "feat", "desc": "Apri documento Pagamento/Mese direttamente dopo generazione"},
+      {"type": "feat", "desc": "Indicatore backup e pulizia manuale nel tab Storico"}
+    ]
+  },
+  {
+    "version": "1.2.1",
+    "date": "2026-04-23",
+    "changes": [
+      {"type": "feat", "desc": "Finestra configurazione dedicata (Toplevel)"},
+      {"type": "feat", "desc": "Finestra changelog separata con click su versione nel footer"},
+      {"type": "feat", "desc": "Storico modifiche configurazione (config_history.jsonl)"},
+      {"type": "feat", "desc": "Backup automatico configurazione prima di ogni modifica"},
+      {"type": "feat", "desc": "CRUD dipendenti con validazione IBAN/SWIFT"},
+      {"type": "feat", "desc": "Export/Import configurazione JSON"},
+      {"type": "feat", "desc": "Soft-delete dipendenti (recuperabili)"},
+      {"type": "feat", "desc": "Tab Società per modifica dati azienda"},
+      {"type": "feat", "desc": "Pulizia infrastruttura: OldVersions per file obsoleti"}
+    ]
+  },
+  {
+    "version": "1.2.2",
+    "date": "2026-04-23",
+    "changes": [
+      {"type": "fix", "desc": "Changelog in finestra separata, rimosso da tab configurazione"},
+      {"type": "fix", "desc": "Versioning a 3 digit (1.2.x)"}
+    ]
+  },
+  {
+    "version": "1.1.1",
+    "date": "2026-04-22",
+    "changes": [
+      {"type": "fix", "desc": "Correzione formattazione importi"},
+      {"type": "fix", "desc": "Miglioramento UI header e footer"},
+      {"type": "feat", "desc": "Colori brand Marine Interiors"}
+    ]
+  },
+  {
+    "version": "1.0.1",
+    "date": "2026-03-19",
+    "changes": [
+      {"type": "feat", "desc": "Versione iniziale - Generatore documenti retribuzioni"},
+      {"type": "feat", "desc": "Supporto dipendenti JOUNEAU e MARCHETTO"},
+      {"type": "feat", "desc": "Estrazione dati da PDF cedolini"},
+      {"type": "feat", "desc": "Generazione documento Pagamento da template"},
+      {"type": "feat", "desc": "Generazione documento Mese Anno da template"},
+      {"type": "feat", "desc": "Calcolo automatico data pagamento (terzultimo giorno lavorativo)"}
+    ]
+  }
+]
