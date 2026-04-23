@@ -177,6 +177,11 @@ class ConfigPanel:
     def _on_dip_select(self, event=None):
         selected = self.tree_dip.selection()
         if not selected:
+            self.selected_dip_key = None
+            for var in self.dip_fields.values():
+                var.set("")
+            self.btn_delete_dip.configure(state="normal")
+            self.btn_restore_dip.configure(state="disabled")
             return
         key = selected[0]
         self.selected_dip_key = key
@@ -281,6 +286,8 @@ class ConfigPanel:
                 self.selected_dip_key = None
                 for var in self.dip_fields.values():
                     var.set("")
+                self.btn_delete_dip.configure(state="normal")
+                self.btn_restore_dip.configure(state="disabled")
             except Exception as e:
                 messagebox.showerror("Errore", str(e))
 
@@ -298,6 +305,8 @@ class ConfigPanel:
                 self.selected_dip_key = None
                 for var in self.dip_fields.values():
                     var.set("")
+                self.btn_delete_dip.configure(state="normal")
+                self.btn_restore_dip.configure(state="disabled")
             except Exception as e:
                 messagebox.showerror("Errore", str(e))
 
@@ -417,7 +426,7 @@ class ConfigPanel:
 
     def _cleanup_backups_manual(self):
         try:
-            self.config_mgr._cleanup_old_backups(keep=30)
+            self.config_mgr.cleanup_old_backups(keep=30)
             self._refresh_backup_info()
             self.log("Pulizia backup vecchi completata")
             messagebox.showinfo("Completato", "Backup vecchi rimossi.")

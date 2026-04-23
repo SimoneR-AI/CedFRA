@@ -40,10 +40,10 @@ class ConfigManager:
         backup_name = f"config_backup_{ts}.json"
         backup_path = os.path.join(self.backups_dir, backup_name)
         shutil.copy2(self.config_path, backup_path)
-        self._cleanup_old_backups()
+        self.cleanup_old_backups()
         return backup_path
 
-    def _cleanup_old_backups(self, keep: int = 30) -> None:
+    def cleanup_old_backups(self, keep: int = 30) -> None:
         """Mantiene solo gli ultimi N backup, eliminando i più vecchi."""
         backups = self.list_backups()
         for old in backups[keep:]:

@@ -658,13 +658,21 @@ class CedFRAApp:
 
     def _apri_ultimo_pagamento(self):
         if self.ultimo_path_pag and os.path.exists(self.ultimo_path_pag):
-            os.startfile(self.ultimo_path_pag)
+            try:
+                os.startfile(self.ultimo_path_pag)
+            except OSError as e:
+                self._log(f"ERRORE: impossibile aprire documento Pagamento: {e}")
+                messagebox.showerror("Errore", f"Impossibile aprire il documento:\n{e}")
         else:
             messagebox.showwarning("Attenzione", "Nessun documento Pagamento trovato.")
 
     def _apri_ultimo_mese(self):
         if self.ultimo_path_mese and os.path.exists(self.ultimo_path_mese):
-            os.startfile(self.ultimo_path_mese)
+            try:
+                os.startfile(self.ultimo_path_mese)
+            except OSError as e:
+                self._log(f"ERRORE: impossibile aprire documento Mese: {e}")
+                messagebox.showerror("Errore", f"Impossibile aprire il documento:\n{e}")
         else:
             messagebox.showwarning("Attenzione", "Nessun documento Mese trovato.")
 
