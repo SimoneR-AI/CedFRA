@@ -2,7 +2,7 @@
 
 ## Project Overview
 - **App**: CedFRA - Generatore Documenti Retribuzioni
-- **Versione**: 1.2.2
+- **Versione**: 1.2.3
 - **Framework**: Tkinter (Python)
 - **Path**: `app/`
 - **Entry**: `Avvia_CedFRA.bat` → `app/app.py`
