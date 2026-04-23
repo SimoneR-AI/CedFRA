@@ -61,6 +61,15 @@
 - Test: `python -m pytest app/tests -v`
 - Avvio: `python app/app.py`
 
+## Git Workflow — Push automatico
+- **Repository remoto:** https://github.com/SimoneR-AI/CedFRA
+- **Alla fine di ogni sessione di lavoro**, l'agent DEVE:
+  1. Verificare se ci sono modifiche non committate (`git status`)
+  2. Se sì, eseguire `git add .`, `git commit -m "<tipo>: <descrizione>"` e `git push origin main`
+  3. Se il push fallisce per autenticazione, avvisare l'utente
+- **Su richiesta esplicita dell'utente** (es. "salva su GitHub", "fai push", "commit e push"), eseguire immediatamente il workflow sopra
+- Lo script `push_to_github.py` è disponibile per push rapido con messaggio auto-generato
+
 ## Risorse
 - Templates: `app/templates/`
 - Assets: `app/assets/`

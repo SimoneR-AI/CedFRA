@@ -33,6 +33,11 @@
 ### Prossimi step
 - Nessuno pianificato. Review completa (Fase 1 + 2 + 3). App stabile e testata.
 
+### Git
+- Repository remoto: https://github.com/SimoneR-AI/CedFRA
+- Push automatico configurato (script `push_to_github.py`)
+- Git Credential Manager attivo per memorizzare il token dopo il primo push
+
 ### Note tecniche
 - `config.json` ora contiene SOLO dati dinamici (dipendenti, società). I dati statici sono in `constants.py`.
 - I log si trovano in `app/logs/cedfra_YYYY-MM-DD.log`.
